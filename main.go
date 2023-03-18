@@ -23,7 +23,10 @@ func main() {
 	fmt.Scan(&userName)
 	fmt.Printf("Your age: ")
 	fmt.Scan(&age)
+	fmt.Printf("How many ticket do you want to book?\n")
+	fmt.Scan(&userTickets)
 
-	userTickets = 4
+	var availableTickets int = remainingTickets - userTickets
 	fmt.Printf("user %s has %d tickets\n", userName, userTickets)
+	fmt.Printf("The numbers of available tickets now is %d\n", availableTickets)
 }
