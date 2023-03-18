@@ -16,13 +16,13 @@ func main() {
 
 	var userName string
 	var userTickets int
-	var age int
+	//var age int
 
 	// ask user about his name
 	fmt.Printf("your name: ")
 	fmt.Scan(&userName)
-	fmt.Printf("Your age: ")
-	fmt.Scan(&age)
+	//fmt.Printf("Your age: ")
+	//fmt.Scan(&age)
 
 	userTickets = 2
 	fmt.Printf("user %s has %d tickets\n", userName, userTickets)
