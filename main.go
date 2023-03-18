@@ -24,6 +24,6 @@ func main() {
 	fmt.Printf("Your age: ")
 	fmt.Scan(&age)
 
-	userTickets = 2
+	userTickets = 4
 	fmt.Printf("user %s has %d tickets\n", userName, userTickets)
 }
