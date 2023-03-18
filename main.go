@@ -19,7 +19,7 @@ func main() {
 	var age int
 
 	// ask user about his name
-	fmt.Printf("your name: ")
+	fmt.Printf("Your name: ")
 	fmt.Scan(&userName)
 	fmt.Printf("Your age: ")
 	fmt.Scan(&age)
