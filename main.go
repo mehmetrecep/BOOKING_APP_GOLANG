@@ -7,7 +7,7 @@ import (
 func main() {
 	var conferenceName string = "Go Conference"
 	const conferenceTicket int = 50
-	//fmt.Printf("%s\n", conferenceName)
+	fmt.Printf("%s\n", conferenceName)
 	var remainingTickets int = 50
 
 	fmt.Printf("Welcome to %v booking application\n", conferenceName)
@@ -19,7 +19,7 @@ func main() {
 	var age int
 
 	// ask user about his name
-	fmt.Printf("your name: ")
+	fmt.Printf("Your name: ")
 	fmt.Scan(&userName)
 	fmt.Printf("Your age: ")
 	fmt.Scan(&age)
