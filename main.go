@@ -8,7 +8,7 @@ func main() {
 	var conferenceName string = "Go Conference"
 	const conferenceTicket int = 50
 	fmt.Printf("%s\n", conferenceName)
-	var remainingTickets int = 50
+	var remainingTickets uint = 50
 
 	fmt.Printf("Welcome to %v booking application\n", conferenceName)
 	fmt.Printf("We have total of %v tickets and %v are still available\n", conferenceTicket, remainingTickets)
